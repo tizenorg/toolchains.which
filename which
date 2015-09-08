@@ -1,4 +1,6 @@
 #! /bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
 set -ef
 
 if test -n "$KSH_VERSION"; then
